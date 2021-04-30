@@ -3,12 +3,20 @@ import { NgModule } from '@angular/core';
 import { MDBBootstrapModule } from 'angular-bootstrap-md';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { NavigationComponent } from './navigation/navigation.component';
+import { SliderComponent } from './slider/slider.component';
+import { CardsComponent } from './cards/cards.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NavigationComponent,
+    SliderComponent,
+    CardsComponent,
+    FooterComponent
 
   ],
   imports: [
