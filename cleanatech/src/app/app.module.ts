@@ -7,6 +7,9 @@ import { NavigationComponent } from './navigation/navigation.component';
 import { SliderComponent } from './slider/slider.component';
 import { CardsComponent } from './cards/cards.component';
 import { FooterComponent } from './footer/footer.component';
+import { UnsComponent } from './uns/uns.component';
+import { FormsModule } from '@angular/forms';
+
 
 
 
@@ -16,12 +19,14 @@ import { FooterComponent } from './footer/footer.component';
     NavigationComponent,
     SliderComponent,
     CardsComponent,
-    FooterComponent
+    FooterComponent,
+    UnsComponent
 
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    FormsModule,
     MDBBootstrapModule.forRoot()
   ],
   providers: [],
