@@ -9,6 +9,7 @@ import { CardsComponent } from './cards/cards.component';
 import { FooterComponent } from './footer/footer.component';
 import { UnsComponent } from './uns/uns.component';
 import { FormsModule } from '@angular/forms';
+import { HomeComponent } from './home/home.component';
 
 
 
@@ -20,7 +21,8 @@ import { FormsModule } from '@angular/forms';
     SliderComponent,
     CardsComponent,
     FooterComponent,
-    UnsComponent
+    UnsComponent,
+    HomeComponent
 
   ],
   imports: [
