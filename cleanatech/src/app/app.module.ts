@@ -10,6 +10,7 @@ import { FooterComponent } from './footer/footer.component';
 import { UnsComponent } from './uns/uns.component';
 import { FormsModule } from '@angular/forms';
 import { HomeComponent } from './home/home.component';
+import { ContactComponent } from './contact/contact.component';
 
 
 
@@ -22,7 +23,8 @@ import { HomeComponent } from './home/home.component';
     CardsComponent,
     FooterComponent,
     UnsComponent,
-    HomeComponent
+    HomeComponent,
+    ContactComponent
 
   ],
   imports: [
